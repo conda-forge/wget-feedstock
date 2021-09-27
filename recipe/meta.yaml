@@ -9,7 +9,7 @@ source:
   sha256: 31cccfc6630528db1c8e3a06f6decf2a370060b982841cfab2b8677400a5092e
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://www.gnu.org/software/wget/
-  license: GPL3
+  license: GPL-3.0-or-later
   license_file: COPYING
   summary: utility for non-interactive download of files from the Web
   description: |
