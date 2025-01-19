@@ -24,11 +24,13 @@ requirements:
     - libidn2
     - libunistring
     - zlib
+    - pcre2
   run:
     - openssl
     - libidn2
     - libunistring
     - zlib
+    - pcre2
 
 test:
   commands:
