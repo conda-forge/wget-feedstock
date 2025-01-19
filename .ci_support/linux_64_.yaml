@@ -18,6 +18,8 @@ libidn2:
 - '2'
 openssl:
 - '3'
+pcre2:
+- '10.44'
 target_platform:
 - linux-64
 zlib:
