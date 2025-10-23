@@ -1,12 +1,12 @@
-{% set version = "1.21.4" %}
+{% set version = "1.25.0" %}
 
 package:
   name: wget
   version: {{ version }}
 
 source:
-  url: http://ftp.gnu.org/gnu/wget/wget-{{ version }}.tar.gz
-  sha256: 81542f5cefb8faacc39bbbc6c82ded80e3e4a88505ae72ea51df27525bcde04c
+  url: https://ftp.gnu.org/gnu/wget/wget-{{ version }}.tar.gz
+  sha256: 766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784
 
 build:
   number: 0
@@ -16,6 +16,7 @@ requirements:
   build:
     - gnuconfig  # [unix]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - pkg-config
     - make
   host:
@@ -23,11 +24,13 @@ requirements:
     - libidn2
     - libunistring
     - zlib
+    - pcre2
   run:
     - openssl
     - libidn2
     - libunistring
     - zlib
+    - pcre2
 
 test:
   commands:
