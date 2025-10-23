@@ -15,9 +15,9 @@ docker_image:
 libidn2:
 - '2'
 openssl:
-- '3'
+- '3.5'
 pcre2:
-- '10.45'
+- '10.46'
 target_platform:
 - linux-64
 zlib:
