@@ -19,9 +19,9 @@ libidn2:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 openssl:
-- '3'
+- '3.5'
 pcre2:
-- '10.45'
+- '10.47'
 target_platform:
 - osx-64
 zlib:
