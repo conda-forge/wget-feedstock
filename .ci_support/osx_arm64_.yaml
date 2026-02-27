@@ -19,9 +19,9 @@ libidn2:
 macos_machine:
 - arm64-apple-darwin20.0.0
 openssl:
-- '3'
+- '3.5'
 pcre2:
-- '10.45'
+- '10.47'
 target_platform:
 - osx-arm64
 zlib:
